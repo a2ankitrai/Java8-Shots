@@ -1,6 +1,6 @@
-package com.ank.Java8_Shots.behavior_param.approach2;
+package com.ank.java8.behavior_param.approach2;
 
-import com.ank.Java8_Shots.behavior_param.common.Apple;
+import com.ank.java8.behavior_param.common.Apple;
 
 public class AppleHeavyWeightPredicate implements ApplePredicate {
 

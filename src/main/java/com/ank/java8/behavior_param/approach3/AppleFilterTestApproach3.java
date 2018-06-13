@@ -1,12 +1,12 @@
-package com.ank.Java8_Shots.behavior_param.approach3;
+package com.ank.java8.behavior_param.approach3;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ank.Java8_Shots.behavior_param.approach2.ApplePredicate;
-import com.ank.Java8_Shots.behavior_param.common.Apple;
-import com.ank.Java8_Shots.behavior_param.common.AppleUtil;
-import com.ank.Java8_Shots.behavior_param.common.Color;
+import com.ank.java8.behavior_param.approach2.ApplePredicate;
+import com.ank.java8.behavior_param.common.Apple;
+import com.ank.java8.behavior_param.common.AppleUtil;
+import com.ank.java8.behavior_param.common.Color;
 
 public class AppleFilterTestApproach3 {
 
@@ -25,7 +25,7 @@ public class AppleFilterTestApproach3 {
 
 	List<Apple> list = AppleUtil.produceApples();
 
-	// Passing behavior in-line
+	// Passing behavior in-line. Lambdas in Action!
 	List<Apple> greenApples = filterApples(list, (apple) -> apple.getColor() == Color.GREEN);
 	
 	List<Apple> heavyApples = filterApples(list, (apple) -> apple.getWeight() > 120);

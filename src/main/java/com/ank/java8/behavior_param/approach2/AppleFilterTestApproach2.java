@@ -1,10 +1,10 @@
-package com.ank.Java8_Shots.behavior_param.approach2;
+package com.ank.java8.behavior_param.approach2;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ank.Java8_Shots.behavior_param.common.Apple;
-import com.ank.Java8_Shots.behavior_param.common.AppleUtil;
+import com.ank.java8.behavior_param.common.Apple;
+import com.ank.java8.behavior_param.common.AppleUtil;
 
 public class AppleFilterTestApproach2 {
 

@@ -1,4 +1,4 @@
-package com.ank.Java8_Shots.behavior_param.common;
+package com.ank.java8.behavior_param.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
