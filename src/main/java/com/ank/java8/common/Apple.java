@@ -1,4 +1,4 @@
-package com.ank.java8.behavior_param.common;
+package com.ank.java8.common;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,4 +13,8 @@ public class Apple {
 
     Color color;
     int weight;
+    
+    public Apple(int weight) {
+	this.weight = weight;
+    }
 }

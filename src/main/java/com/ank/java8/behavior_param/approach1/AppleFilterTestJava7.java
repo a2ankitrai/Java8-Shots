@@ -4,9 +4,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.ank.java8.behavior_param.common.Apple;
-import com.ank.java8.behavior_param.common.AppleUtil;
-import com.ank.java8.behavior_param.common.Color;
+import com.ank.java8.common.Apple;
+import com.ank.java8.common.AppleUtil;
+import com.ank.java8.common.Color;
 
 public class AppleFilterTestJava7 {
 

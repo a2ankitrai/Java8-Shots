@@ -3,8 +3,8 @@ package com.ank.java8.behavior_param.approach2;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.ank.java8.behavior_param.common.Apple;
-import com.ank.java8.behavior_param.common.AppleUtil;
+import com.ank.java8.common.Apple;
+import com.ank.java8.common.AppleUtil;
 
 public class AppleFilterTestApproach2 {
 

@@ -1,4 +1,4 @@
-package com.ank.java8.behavior_param.common;
+package com.ank.java8.common;
 
 import java.util.Arrays;
 import java.util.List;
