@@ -3,12 +3,10 @@ package com.ank.java8.common;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.ToString;
 
 @Data
 @NoArgsConstructor
-@AllArgsConstructor
-@ToString
+@AllArgsConstructor 
 public class Apple {
 
     Color color;
@@ -16,5 +14,9 @@ public class Apple {
     
     public Apple(int weight) {
 	this.weight = weight;
+    }
+    
+    public String toString() {
+	return "{Apple : "+this.getColor().toString()+","+this.getWeight()+"}";
     }
 }
