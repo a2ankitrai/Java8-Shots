@@ -1,4 +1,4 @@
-package com.ank.Java8_Shots;
+package com.ank.java8;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
