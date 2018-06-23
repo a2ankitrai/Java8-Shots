@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="022cd047-64d8-41b6-bc07-6292faaafdf0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamFilteringOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,7 +23,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamVsCollectionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
-              <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+              <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -26,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StreamOperations.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StreamOperations.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamOperations.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="507">
@@ -38,10 +43,22 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StreamFilteringOperations.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamFilteringOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Dish.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/common/Dish.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
+            <state relative-caret-position="65">
               <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
             </state>
           </provider>
@@ -73,6 +90,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamVsCollectionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamOperations.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamFilteringOperations.java" />
       </list>
     </option>
   </component>
@@ -191,9 +209,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StreamOperations">
+  <component name="RunManager" selected="Application.StreamFilteringOperations">
     <configuration name="StreamBasicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ank.java8.stream.StreamBasicTest" />
+      <module name="Java8-Shots" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ank.java8.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="StreamFilteringOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ank.java8.stream.StreamFilteringOperations" />
       <module name="Java8-Shots" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -270,9 +299,11 @@
       <item itemvalue="Application.StreamBasicTest" />
       <item itemvalue="Application.StreamVsCollectionTest" />
       <item itemvalue="Application.StreamOperations" />
+      <item itemvalue="Application.StreamFilteringOperations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamFilteringOperations" />
         <item itemvalue="Application.StreamOperations" />
         <item itemvalue="Application.StreamVsCollectionTest" />
         <item itemvalue="Application.StreamBasicTest" />
@@ -290,12 +321,12 @@
       <option name="presentableId" value="Default" />
       <updated>1529703565242</updated>
       <workItem from="1529703568844" duration="1036000" />
-      <workItem from="1529707003409" duration="3474000" />
+      <workItem from="1529707003409" duration="5343000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4510000" />
+    <option name="totallyTimeSpent" value="6379000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="988" extended-state="0" />
@@ -311,12 +342,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49940476" visible="true" weight="0.32932165" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49940476" visible="true" weight="0.26805252" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18392856" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.125" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -328,7 +360,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,13 +430,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/common/Dish.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamBasicTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
@@ -416,7 +440,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamVsCollectionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="46" lean-forward="true" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
+          <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -427,6 +451,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="507">
           <caret line="39" column="89" selection-start-line="39" selection-start-column="89" selection-end-line="39" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/common/Dish.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ank/java8/stream/StreamFilteringOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="35" selection-end-line="44" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
