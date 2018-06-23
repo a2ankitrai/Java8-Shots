@@ -33,11 +33,11 @@ public class StreamOperations {
 
         List<String> list = stringStream2.collect(Collectors.toList());
 
-        System.out.println(list);
+        System.out.println(list); // [Stream, of, Strings, generated, on, the, fly]
 
         String concatenatedString = stringStream3.collect(Collectors.joining(" "));
 
-        System.out.println(concatenatedString);
+        System.out.println(concatenatedString); // Stream of Strings generated on the fly
     }
 
 }
