@@ -44,5 +44,7 @@ public class StreamFilteringOperations {
 
         System.out.println(dishes2);
 
+
+
     }
 }

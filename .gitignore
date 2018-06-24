@@ -28,4 +28,5 @@ hs_err_pid*
 .settings/
 target/
 
-.idea/*
+.idea/
+.idea/workspace.xml
